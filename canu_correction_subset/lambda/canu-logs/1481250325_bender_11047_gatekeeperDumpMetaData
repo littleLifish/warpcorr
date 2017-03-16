@@ -1,0 +1,9 @@
+Canu v0.0 (+0 commits) r0 unknown-hash-tag-no-repository-available.
+
+Current Working Directory:
+/home/shao4/compgenomics/project/R73_Lambda/assembly/lambda/correction/lambda.gkpStore
+
+Command:
+/home/shao4/canu-1.3/Linux-amd64/bin/gatekeeperDumpMetaData \
+  -G . \
+  -libs

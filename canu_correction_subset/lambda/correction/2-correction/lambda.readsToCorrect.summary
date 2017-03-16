@@ -1,0 +1,20 @@
+Corrected read length filter:
+
+  nReads  26
+  nBases  236060 (input bases)
+  nBases  230027 (corrected bases)
+  Mean    8847
+  N50     16868
+
+Raw read length filter:
+
+  nReads  26
+  nBases  236060 (input bases)
+  nBases  230027 (corrected bases)
+  Mean    8847
+  N50     16868
+
+TN         0 reads             0 raw bases (     0 ave)             0 corrected bases (     0 ave)
+FN         0 reads             0 raw bases (     0 ave)             0 corrected bases (     0 ave)
+FP         0 reads             0 raw bases (     0 ave)             0 corrected bases (     0 ave)
+TP        26 reads        236060 raw bases (  9079 ave)        230027 corrected bases (  8847 ave)

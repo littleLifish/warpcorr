@@ -1,0 +1,13 @@
+Canu v0.0 (+0 commits) r0 unknown-hash-tag-no-repository-available.
+
+Current Working Directory:
+/home/shao4/compgenomics/project/R73_Lambda/assembly/lambda/correction/1-overlapper
+
+Command:
+/home/shao4/canu-1.3/Linux-amd64/bin/gatekeeperDumpFASTQ \
+  -G /home/shao4/compgenomics/project/R73_Lambda/assembly/lambda/correction/lambda.gkpStore \
+  -b 1 \
+  -e 27 \
+  -nolibname \
+  -fasta \
+  -o /home/shao4/compgenomics/project/R73_Lambda/assembly/lambda/correction/1-overlapper/blocks/000001

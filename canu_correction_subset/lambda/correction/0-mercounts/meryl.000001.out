@@ -1,0 +1,42 @@
+Computing 4 segments using 4 threads and 0MB memory (0MB if in one batch).
+  numMersActual      = 242428
+  mersPerBatch       = 60607
+  basesPerBatch      = 60708
+  numBuckets         = 4096 (12 bits)
+  bucketPointerWidth = 16
+  merDataWidth       = 20
+Computing segment 2 of 4.
+ Allocating 0MB for bucket pointer table (16 bits wide).
+ Allocating 0MB for counting the size of each bucket.
+Computing segment 3 of 4.
+ Allocating 0MB for bucket pointer table (16 bits wide).
+Computing segment 4 of 4.
+ Allocating 0MB for bucket pointer table (16 bits wide).
+Computing segment 1 of 4.
+ Allocating 0MB for bucket pointer table (16 bits wide).
+ Allocating 0MB for counting the size of each bucket.
+ Allocating 0MB for counting the size of each bucket.
+ Allocating 0MB for counting the size of each bucket.
+ Creating bucket pointers.
+ Releasing 0MB from counting the size of each bucket.
+ Allocating 0MB for mer storage (20 bits wide).
+ Creating bucket pointers.
+ Releasing 0MB from counting the size of each bucket.
+ Allocating 0MB for mer storage (20 bits wide).
+ Creating bucket pointers.
+ Creating bucket pointers.
+ Releasing 0MB from counting the size of each bucket.
+ Allocating 0MB for mer storage (20 bits wide).
+ Releasing 0MB from counting the size of each bucket.
+ Allocating 0MB for mer storage (20 bits wide).
+Segment 3 finished.
+Thread exits.
+Segment 0 finished.
+Thread exits.
+Segment 1 finished.
+Thread exits.
+Segment 2 finished.
+Thread exits.
+Threads all done, cleaning up.
+Merge results.
+Can fit 7774841512 mers into table with prefix of 26 bits, using 6553.000MB (0.000MB for positions)

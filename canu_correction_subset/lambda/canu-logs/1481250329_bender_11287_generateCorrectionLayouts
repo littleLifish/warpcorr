@@ -1,0 +1,12 @@
+Canu v0.0 (+0 commits) r0 unknown-hash-tag-no-repository-available.
+
+Current Working Directory:
+/home/shao4/compgenomics/project/R73_Lambda/assembly/lambda/correction
+
+Command:
+/home/shao4/canu-1.3/Linux-amd64/bin/generateCorrectionLayouts \
+  -G /home/shao4/compgenomics/project/R73_Lambda/assembly/lambda/correction/lambda.gkpStore \
+  -O /home/shao4/compgenomics/project/R73_Lambda/assembly/lambda/correction/lambda.ovlStore \
+  -S /home/shao4/compgenomics/project/R73_Lambda/assembly/lambda/correction/2-correction/lambda.globalScores \
+  -C 80 \
+  -p /home/shao4/compgenomics/project/R73_Lambda/assembly/lambda/correction/2-correction/lambda.estimate

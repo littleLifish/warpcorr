@@ -1,0 +1,7 @@
+########################################
+#  nanopore-raw: /home/shao4/compgenomics/project/R73_Lambda/read1.fa
+#
+name   read1
+preset nanopore-raw
+/home/shao4/compgenomics/project/R73_Lambda/read1.fa
+
