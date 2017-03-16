@@ -1,0 +1,46 @@
+Running block 000001 in query 000001
+Running with these settings:
+--filter-threshold = 5.0E-6
+--help = false
+--max-shift = 0.2
+--min-olap-length = 116
+--min-store-length = 0
+--no-self = false
+--no-tf = false
+--num-hashes = 256
+--num-min-matches = 3
+--num-threads = 12
+--ordered-kmer-size = 14
+--ordered-sketch-size = 1000
+--repeat-weight = 0.9
+--settings = 0
+--store-full-id = false
+--supress-noise = 0
+--threshold = 0.8
+--version = false
+-f = /home/shao4/compgenomics/project/assembly/lambda/correction/0-mercounts/lambda.ms16.frequentMers.ignore.gz
+-h = false
+-k = 16
+-p = 
+-q = /home/shao4/compgenomics/project/assembly/lambda/correction/1-overlapper/queries/000001
+-s = /home/shao4/compgenomics/project/assembly/lambda/correction/1-overlapper/blocks/000001.dat
+
+Reading in filter file /home/shao4/compgenomics/project/assembly/lambda/correction/0-mercounts/lambda.ms16.frequentMers.ignore.gz.
+Warning, k-mer filter file has zero elements.
+Time (s) to read filter file: 0.03875274
+Read in k-mer filter for sizes: []
+Processing files for storage in reverse index...
+Stored 3810 sequences in the index.
+Processed 3810 unique sequences (fwd and rev).
+Time (s) to read and hash from file: 0.520891375
+Time (s) to score and output to self: 1.0109809490000001
+Total scoring time (s): 1.0118086960000001
+Total time (s): 1.5328073450000002
+MinHash search time (s): 1.1241986670000002
+Total matches found: 19535
+Average number of matches per lookup: 10.254593175853019
+Average number of table elements processed per lookup: 514.5874015748032
+Average number of table elements processed per match: 50.181162016892756
+Average % of hashed sequences hit per lookup: 2.850476367619402
+Average % of hashed sequences hit that are matches: 9.442261309204453
+Average % of hashed sequences fully compared that are matches: 73.6336223143611

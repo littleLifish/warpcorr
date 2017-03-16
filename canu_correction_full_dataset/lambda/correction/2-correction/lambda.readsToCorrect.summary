@@ -1,0 +1,20 @@
+Corrected read length filter:
+
+  nReads  119
+  nBases  2032917 (input bases)
+  nBases  2007179 (corrected bases)
+  Mean    16867
+  N50     0
+
+Raw read length filter:
+
+  nReads  114
+  nBases  2002337 (input bases)
+  nBases  1849033 (corrected bases)
+  Mean    16220
+  N50     0
+
+TN       754 reads       5844877 raw bases (  7751 ave)       4874148 corrected bases (  6464 ave)
+FN        17 reads        226897 raw bases ( 13346 ave)        226401 corrected bases ( 13317 ave)
+FP        12 reads        196317 raw bases ( 16359 ave)         68255 corrected bases (  5687 ave)
+TP       102 reads       1806020 raw bases ( 17706 ave)       1780778 corrected bases ( 17458 ave)

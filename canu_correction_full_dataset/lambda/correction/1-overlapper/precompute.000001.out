@@ -1,0 +1,37 @@
+Dumping reads from 1 to 1905 (inclusive).
+Starting mhap precompute.
+Running with these settings:
+--filter-threshold = 5.0E-6
+--help = false
+--max-shift = 0.2
+--min-olap-length = 116
+--min-store-length = 0
+--no-self = false
+--no-tf = false
+--num-hashes = 256
+--num-min-matches = 3
+--num-threads = 12
+--ordered-kmer-size = 14
+--ordered-sketch-size = 1000
+--repeat-weight = 0.9
+--settings = 0
+--store-full-id = false
+--supress-noise = 0
+--threshold = 0.8
+--version = false
+-f = /home/shao4/compgenomics/project/assembly/lambda/correction/0-mercounts/lambda.ms16.frequentMers.ignore.gz
+-h = false
+-k = 16
+-p = /home/shao4/compgenomics/project/assembly/lambda/correction/1-overlapper/blocks/000001.fasta
+-q = /home/shao4/compgenomics/project/assembly/lambda/correction/1-overlapper/blocks
+-s = 
+
+Reading in filter file /home/shao4/compgenomics/project/assembly/lambda/correction/0-mercounts/lambda.ms16.frequentMers.ignore.gz.
+Warning, k-mer filter file has zero elements.
+Time (s) to read filter file: 0.045213835
+Read in k-mer filter for sizes: []
+Processing FASTA files for binary compression...
+Processed 3810 sequences (fwd and rev).
+Read, hashed, and stored file /home/shao4/compgenomics/project/assembly/lambda/correction/1-overlapper/blocks/000001.fasta to /home/shao4/compgenomics/project/assembly/lambda/correction/1-overlapper/blocks/000001.dat.
+Time (s): 13.420391573000002
+Total time (s): 13.420670714000002

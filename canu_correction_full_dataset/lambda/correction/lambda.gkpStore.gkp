@@ -1,0 +1,7 @@
+########################################
+#  nanopore-raw: /home/shao4/compgenomics/project/lambda_cg.fastq
+#
+name   lambda_cg
+preset nanopore-raw
+/home/shao4/compgenomics/project/lambda_cg.fastq
+

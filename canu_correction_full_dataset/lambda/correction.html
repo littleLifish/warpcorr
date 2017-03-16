@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+<title>canu analysis for assembly 'lambda' in directory '/home/shao4/compgenomics/project/assembly/lambda/correction'</title>
+<style type='text/css'>
+body       { font-family: Helvetica, Verdana, sans-serif; }
+h1, h2, h3 { color: #ee3e80; }
+p          { color: #665544; }
+th, td     { border: 1px solid #111111; padding: 2px 2px 2px 2px; }
+td:hover   { background-color: #e4e4e4; }
+th:hover   { background-color: #d4d4d4; }
+tr.details { visibility: collapse; }
+</style>
+</head>
+
+<body>
+
+<h1>Correction</h1>
+<h2>Input Reads</h2>
+
+<table>
+<tr id='gkpload0'><td colspan='2'>/home/shao4/compgenomics/project/lambda_cg.fastq</td></tr>
+<tr class='details'><td rowspan='8'>Parameters</td><td>preset = N/A</td></tr>
+<tr class='details'><td>defaultQV = 20</td></tr>
+<tr class='details'><td>isNonRandom = false</td></tr>
+<tr class='details'><td>removeDuplicateReads = true</td></tr>
+<tr class='details'><td>finalTrim = true</td></tr>
+<tr class='details'><td>removeSpurReads = true</td></tr>
+<tr class='details'><td>removeChimericReads = true</td></tr>
+<tr class='details'><td>checkForSubReads = true</td></tr>
+<tr class='details'><td rowspan='2'>FASTA</td><td>0 reads (0 bp)</td></tr>
+<tr class='details'><td>0 reads (0 bp) were short and not loaded</td></tr>
+<tr class='details'><td rowspan='2'>FASTQ</td><td>1905 reads (15758348 bp)</td></tr>
+<tr class='details'><td>33 reads (23159 bp) were short and not loaded</td></tr>
+<tr><td colspan='2'>1905 reads (15758348 bp) loaded, 33 reads (23159 bp) skipped, 0 warnings</td></tr>
+</table>
+
+<h2>Final Store</h2>
+
+<table>
+<tr><td colspan='2'>/home/shao4/compgenomics/project/assembly/lambda/correction/lambda.gkpStore</td></tr>
+<tr><td>readsLoaded</td><td>1905 reads (15758348 bp)</td></tr>
+<tr><td>readsSkipped</td><td>33 reads (23159 bp) (read was too short)</td></tr>
+<tr><td>warnings</td><td>0 warnings (invalid base or quality value)</td></tr>
+</table>
+<h3>Read Length Histogram</h3>
+<figure>
+<a href='/home/shao4/compgenomics/project/assembly/lambda/correction.html.files/readlengths.lg.png'><img src='/home/shao4/compgenomics/project/assembly/lambda/correction.html.files/readlengths.sm.png'></a>
+<figcaption>
+
+</figcaption>
+</figure>
+<h2>k-Mer Counts</h2>
+
+<figure>
+<a href='/home/shao4/compgenomics/project/assembly/lambda/correction.html.files/lambda.ms16.histogram.lg.png'><img src='/home/shao4/compgenomics/project/assembly/lambda/correction.html.files/lambda.ms16.histogram.sm.png'></a>
+<figcaption>
+Histogram for k=16 with 15729773 mers, 13312487 distinct mers and 12559519 single-copy mers.  Largest count is 110.
+</figcaption>
+</figure>
+<h2>Overlaps</h2>
+
+<table>
+<tr><th>Category</th><th>Reads</th><th>%</th><th colspan='3'>Read Length</th><th colspan='3'>Feature Size or Coverage</th><th>Analysis</th></tr>
+<tr><td>middle-missing         </td><td>5</td><td>0.26</td><td align='right'>15343.40</td><td>&plusmn;</td><td align='left'>17578.96</td><td align='right'>2169.60</td><td>&plusmn;</td><td align='left'>4088.58</td><td align='left'>bad trimming</td></tr>
+<tr><td>middle-hump            </td><td>0</td><td>0.00</td><td align='right'>0.00</td><td>&plusmn;</td><td align='left'>0.00</td><td align='right'>0.00</td><td>&plusmn;</td><td align='left'>0.00</td><td align='left'>bad trimming</td></tr>
+<tr><td>no-5-prime             </td><td>0</td><td>0.00</td><td align='right'>0.00</td><td>&plusmn;</td><td align='left'>0.00</td><td align='right'>0.00</td><td>&plusmn;</td><td align='left'>0.00</td><td align='left'>bad trimming</td></tr>
+<tr><td>no-3-prime             </td><td>0</td><td>0.00</td><td align='right'>0.00</td><td>&plusmn;</td><td align='left'>0.00</td><td align='right'>0.00</td><td>&plusmn;</td><td align='left'>0.00</td><td align='left'>bad trimming</td></tr>
+<tr><td>low-coverage         </td><td>357</td><td>18.74</td><td align='right'>8656.83</td><td>&plusmn;</td><td align='left'>4591.47</td><td align='right'>2.18</td><td>&plusmn;</td><td align='left'>1.75</td><td align='left'>easy to assemble, potential for lower quality consensus</td></tr>
+<tr><td>unique                 </td><td>8</td><td>0.42</td><td align='right'>8538.38</td><td>&plusmn;</td><td align='left'>4278.68</td><td align='right'>31.43</td><td>&plusmn;</td><td align='left'>11.36</td><td align='left'>easy to assemble, perfect, yay</td></tr>
+<tr><td>repeat-cont            </td><td>0</td><td>0.00</td><td align='right'>0.00</td><td>&plusmn;</td><td align='left'>0.00</td><td align='right'>0.00</td><td>&plusmn;</td><td align='left'>0.00</td><td align='left'>potential for consensus errors, no impact on assembly</td></tr>
+<tr><td>repeat-dove            </td><td>0</td><td>0.00</td><td align='right'>0.00</td><td>&plusmn;</td><td align='left'>0.00</td><td align='right'>0.00</td><td>&plusmn;</td><td align='left'>0.00</td><td align='left'>hard to assemble, likely won't assemble correctly or even at all</td></tr>
+<tr><td>span-repeat          </td><td>269</td><td>14.12</td><td align='right'>9332.50</td><td>&plusmn;</td><td align='left'>4407.35</td><td align='right'>7584.64</td><td>&plusmn;</td><td align='left'>4493.58</td><td align='left'>read spans a large repeat, usually easy to assemble</td></tr>
+<tr><td>uniq-repeat-cont       </td><td>0</td><td>0.00</td><td align='right'>0.00</td><td>&plusmn;</td><td align-'left'>0.00</td><td></td><td></td><td></td><td align='left'>should be uniquely placed, low potential for consensus errors, no impact on assembly</td></tr>
+<tr><td>uniq-repeat-dove     </td><td>246</td><td>12.91</td><td align='right'>9464.04</td><td>&plusmn;</td><td align-'left'>4198.47</td><td></td><td></td><td></td><td align='left'>will end contigs, potential to misassemble</td></tr>
+<tr><td>uniq-anchor            </td><td>0</td><td>0.00</td><td align='right'>0.00</td><td>&plusmn;</td><td align='left'>0.00</td><td align='right'>0.00</td><td>&plusmn;</td><td align='left'>0.00</td><td align='left'>repeat read, with unique section, probable bad read</td></tr>
+</table>
+<h2>Overlap Filtering</h2>
+
+<table>
+<tr><th colspan='3'>PARAMETERS</th></tr>
+<tr><td rowspan='4'></td><td>40</td><td>expected coverage</td></tr>
+<tr><td>0</td><td>don't use overlaps shorter than this</td></tr>
+<tr><td>0.000</td><td>don't use overlaps with erate less than this</td></tr>
+<tr><td>1.000</td><td>don't use overlaps with erate more than this</td></tr>
+<tr><th colspan='3'>OVERLAPS</th></tr>
+<tr><td rowspan='4'>Ignored</td><td>0</td><td>< 0.0000 fraction error</td></tr>
+<tr><td>0</td><td>> 0.4095 fraction error</td></tr>
+<tr><td>0</td><td>< 0 bases long</td></tr>
+<tr><td>0</td><td>> 2097151 bases long</td></tr>
+<tr><td rowspan='1'>Filtered</td><td>20022</td><td>too many overlaps, discard these shortest ones</td></tr>
+<tr><td rowspan='1'>Evidence</td><td>19048</td><td>longest overlaps</td></tr>
+<tr><td rowspan='1'>Total</td><td>39070</td><td>all overlaps</td></tr>
+<tr><th colspan='3'>READS</th></tr>
+<tr><td rowspan='6'></td><td>1020</td><td>no overlaps</td></tr>
+<tr><td>515</td><td>no overlaps filtered</td></tr>
+<tr><td>136</td><td><  50% overlaps filtered</td></tr>
+<tr><td>368</td><td><  80% overlaps filtered</td></tr>
+<tr><td>370</td><td><  95% overlaps filtered</td></tr>
+<tr><td>370</td><td>< 100% overlaps filtered</td></tr>
+</table>
+<h2>Read Correction</h2>
+
+<p>Filter method: corFilter=expensive.  Expect to correct 119 reads with bp to bp.</p>
+<table>
+<tr><th colspan='3'>INPUTS</th></tr>
+<tr><td>119</td><td>input reads</td></tr>
+<tr><td>2032917</td><td>input bases</td></tr>
+<tr><th colspan='3'>OUTPUTS</th></tr>
+<tr><td>35</td><td>reads that failed to generate any corrected bases</td></tr>
+<tr><td>94</td><td>corrected read pieces</td></tr>
+<tr><td>1154776</td><td>corrected bases</td></tr>
+<tr><th colspan='3'>PIECES PER READ</th></tr>
+<tr><td>0</td><td>35</td></tr>
+<tr><td>1</td><td>74</td></tr>
+<tr><td>2</td><td>10</td></tr>
+</table>
+<p>A single input read can be split into multiple output reads, or possibly not even output at all.</p>
+<figure>
+<a href='correction.html.files/lambda.estimate.original-x-corrected.lg.png'><img src='correction.html.files/lambda.estimate.original-x-corrected.sm.png'></a>
+<figcaption>
+Scatter plot of the original read length (X axis) against the expected corrected read length (Y axis).
+Colors show a comparison of the simple filter (which doesn't use overlaps) to the expensive filter (which does).
+A large green triangle (false negatives) hints that there could be abnormally low quality regions in the reads.
+
+</figcaption>
+</figure>
+<figure>
+<a href='correction.html.files/lambda.originalLength-vs-expectedLength.lg.png'><img src='correction.html.files/lambda.originalLength-vs-expectedLength.sm.png'></a>
+<figcaption>
+Scatter plot of original vs expected read length.  Shown in filter plot above.
+</figcaption>
+</figure>
+<figure>
+<a href='correction.html.files/lambda.originalLength-vs-correctedLength.lg.png'><img src='correction.html.files/lambda.originalLength-vs-correctedLength.sm.png'></a>
+<figcaption>
+Scatter plot of original vs corrected read length.
+</figcaption>
+</figure>
+<figure>
+<a href='correction.html.files/lambda.expectedLength-vs-correctedLength.lg.png'><img src='correction.html.files/lambda.expectedLength-vs-correctedLength.sm.png'></a>
+<figcaption>
+Scatter plot of expected vs corrected read length.
+</figcaption>
+</figure>
+<figure>
+<a href='correction.html.files/lambda.length-difference-histograms.lg.png'><img src='correction.html.files/lambda.length-difference-histograms.sm.png'></a>
+<figcaption>
+Histogram of the difference between the expected and corrected read lengths.
+Note that a negative difference means the corrected read is larger than expected.
+
+</figcaption>
+</figure>
+<figure>
+<a href='correction.html.files/lambda.length-histograms.lg.png'><img src='correction.html.files/lambda.length-histograms.sm.png'></a>
+<figcaption>
+Histogram of original (red), expected (green) and actual corrected (blue) read lengths.
+
+</figcaption>
+</figure>
+
+<script type='text/javascript'>
+var toggleTable = function() {
+  var table = this.closest('table');
+  var elts  = table.querySelectorAll('.details');
+
+  for (var i=0; i<elts.length; i++) {
+    if (!elts[i].enabled) {
+      elts[i].enabled = true;
+      elts[i].style.visibility = 'visible';
+    } else {
+      elts[i].enabled = false;
+      elts[i].style.visibility = 'collapse';
+    }
+  }
+}
+document.getElementById('gkpload0').onclick = toggleTable;
+document.getElementById('gkpload0').style   = 'cursor: pointer;';
+</script>
+
+</body>
+
+</html>

@@ -1,0 +1,22 @@
+
+Starting file '/home/shao4/compgenomics/project/assembly/lambda/correction/lambda.gkpStore.gkp'.
+
+  Loading reads from '/home/shao4/compgenomics/project/lambda_cg.fastq'
+    Processed 9690 lines.
+    Loaded 15758348 bp from:
+      1938 FASTQ format reads (15758348 bp).
+    WARNING: 33 reads (1.7028%) with 23159 bp (0.1467%) were too short (< 1000bp) and were ignored.
+
+Finished with:
+  0 warnings (bad base or qv, too short, too long)
+
+Loaded into store:
+  15758348 bp.
+  1905 reads.
+
+Skipped (too short):
+  23159 bp (0.1467%).
+  33 reads (1.7028%).
+
+
+gatekeeperCreate finished successfully.
